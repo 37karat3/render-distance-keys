@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "render_distance_keys",
+  "version": "1.0.0",
+  "name": "Render Distance Keys",
+  "description": "Increase or decrease render distance with customizable keybinds.",
+  "authors": ["37karat3"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.render_distance_keys.RenderDistanceKeys"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
